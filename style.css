@@ -1,0 +1,130 @@
+/* open sans */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+/* Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600&display=swap');
+/* Quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
+
+
+body {
+  background-color: #F5E9E2;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 300;
+  color: #0B0014;
+  font-size: 1em;
+  line-height: 1em;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+  color: #773344;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p {
+  line-height: 1.3em;
+}
+
+a {
+  color: #D44D5C;
+  text-decoration: none;
+  font-size: 1.3em;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  /* width: 100vw; */
+}
+
+.card{
+  width: 70vw;
+  margin: auto;
+  border-radius: 9px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card-white{
+  background-color: #FFFAFA;
+  padding: 17px;
+  border: 1px solid #773344;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a {
+  font-size: 3em;
+}
+
+.main-button {
+  font-family: 'Raleway', sans-serif;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  padding: 0 24px;
+  border-radius: 50px;
+  min-width: 90px;
+  height: 40px;
+  font-size: 1em;
+  background-color: #F7F775;
+  font-weight: 500;
+  color: #222;
+  letter-spacing: 0.15em;
+  word-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 470px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
