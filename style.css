@@ -53,7 +53,7 @@ a {
 }
 
 .card{
-  width: 70vw;
+  max-width: 70vw;
   margin: auto;
   border-radius: 9px;
   margin-top: 30px;
@@ -86,7 +86,7 @@ a {
 }
 
 .list-inline > li > a {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .main-button {
@@ -99,11 +99,11 @@ a {
   border-radius: 50px;
   min-width: 90px;
   height: 40px;
-  font-size: 1em;
+  font-size: 0.8em;
   background-color: #F7F775;
   font-weight: 500;
   color: #222;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.11em;
   word-spacing: 0.5em;
   text-transform: uppercase;
 }
