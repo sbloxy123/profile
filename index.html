@@ -7,54 +7,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
   </head>
 
   <body>
-    <div class="container">
-      <div class="card card-white text-center">
+    <!-- navbar -->
+    <div class="navbar-style">
+      <div class="container">
+        <div class="footer-content">
+          <div class="my-name me-auto">
+            <h1 class="forename">Stuart</h1>
+            <h1 class="surname">Bloxham</h1>
+          </div>
+          <a href="./docs/stuart-bloxham-CV-web-developer.pdf"
+          target="_blank"
+          class="d-flex justify-content-between align-items-center mb-2 me-auto">
+            <img class="cv-icon me-2" src="./images/file.png" alt="document icons">
+            <h2 class="cv-text mb-0">CV</h2>
+        </a>
+          <ul class="list-inline">
+            <li>
+              <a href="https://github.com/sbloxy123" target="_blank" >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
 
-        <h1>Stuart Bloxham</h1>
-        <h2>Web Developer</h2>
-        <br/>
-        <img src="./images/me.jpeg" alt="profile picture" width="150px" class="img-circle">
-        <br/>
-        <br/>
-        <p>Hi there 👋, I'm Stuart.. a fresh Web Developer based near london</p>
-        <p>Aspiring to be a Freelancer to give me freedom and be my own boss!!</p>
-        <button class="main-button">
-          <a href="https://www.bloxywebservices.co.uk/" target="_blank">
-            Visit my website!
-          </a>
-        </button>
+            <li>
+              <a href="https://www.linkedin.com/in/stuart-bloxham-a36197121/" target="_blank" >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
 
-      </div>
-
-      <div class="card card-white text-center">
-
-        <h3>Follow me</h3>
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/sbloxy123" target="_blank" >
-              <i class="fa-brands fa-github"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/stuart-bloxham-a36197121/" target="_blank" >
-              <i class="fa-brands fa-linkedin"></i>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.instagram.com/bloxy88/" target="_blank" >
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-
+            <li>
+              <a href="https://www.instagram.com/bloxy88/" target="_blank" >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
+
+    <!-- intro -->
+
+      <div class="container">
+        <img src="./images/me.jpeg" alt="me" class="rounded-circle me-img">
+          <div class="bio-text">
+            <p>Hi, I’m Stuart, a Junior developer with over 7 years of experience in client-facing roles. Prior to completing a Coding Bootcamp at Le Wagon in December 2022, I was self- taught in HTML, CSS and Javascript/React & Gatsby where I was capable of building simple websites alongside working a full-time job in another industry.</p>
+            <p>At Le Wagon, I learned a multitude of Full Stack disciplines such as Git workflows, Ruby & Ruby on Rails, Databases, Design systems, Javascript & working with APIs. Working on the course with "buddies" and teammates allowed me to experience working as a team remotely, communicating through Slack and Zoom.</p>
+            <p>With a background in sales and dealing with professional clients, I look forward to the transition to becoming an effective developer with a strong understanding of client needs and expectations. With a genuine interest in Web Development, I am very excited to continue learning in the field and build a successful career.</p>
+            <p>I now plan to improve my Javascript and React skills and hope to add Typescript to my skillset in the near future. I'm also keeping an eye on RemixJS which could be a valuable framework to have under my belt.</p>
+          </div>
+      </div>
+      <!-- projects section -->
+      <div class="container">
+      <h2 class="section-heading">Projects</h2>
+      <!-- project 1 -->
+      <div class="project-container">
+        <a href="https://www.bloxywebservices.co.uk/" target="_blank">
+          <img src="./images/bloxy.png" alt="bloxy Web Services website" class="project-screenshot">
+        </a>
+          <div class="project-details">
+            <div class="project-text">
+              <h2>Bloxy Web Services</h2>
+              <p>My personal website which I setup before starting at Le Wagon.</p>
+              <h5>BUILT WITH:</h5>
+              <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>GatsbyJS (React framework)</li>
+                <li>Font Awesome</li>
+                <li>Google Analytics</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <ul class="project-icons">
+                <li>
+                  <a href="https://www.figma.com/file/avWmzwYv5EyhhBkxX4RsgY/My-Portfolio-Site?node-id=0%3A1&t=UscVUeTL5Ll7HiAK-1" target="_blank" >
+                    <i class="fa-brands fa-figma"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/sbloxy123/my-portfolio-code." target="_blank" >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.bloxywebservices.co.uk/" target="_blank" >
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- project 2 -->
+        <div class="project-container">
+          <a href="https://www.materialised.shop/" target="_blank">
+            <img src="./images/materialised.png" alt="materialised website" class="project-screenshot">
+          </a>
+          <div class="project-details">
+            <div class="project-text">
+              <h2>Materialised</h2>
+              <p>My final project at Le Wagon, built by 4 of us in less than 2 weeks.</p>
+              <h5>BUILT WITH:</h5>
+              <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>Ruby on Rails</li>
+                <li>Javascript & StimulusJS</li>
+                <li>Mapbox API</li>
+                <li>Stripe API</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <ul class="project-icons">
+                <li>
+                  <a href="https://www.figma.com/file/aijesEpK6OLA5Nu1uZ6ijM/Materialised?node-id=0%3A1&t=jOjBXwPQIhCaNOzK-1" target="_blank" >
+                    <i class="fa-brands fa-figma"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/sbloxy123/materialised" target="_blank" >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.materialised.shop/" target="_blank" >
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- project 3 -->
+        <div class="project-container">
+          <a href="https://suspicious-visvesvaraya-d96526.netlify.app/" target="_blank">
+            <img src="./images/bryan.png" alt="Bryan Johnston Cichlids website" class="project-screenshot">
+          </a>
+          <div class="project-details">
+            <div class="project-text">
+              <h2>Bryan Johnston Cichlids</h2>
+              <p>I built this site prior to the bootcamp. Client wanted a place to showcase his unique fish to his customers, alongside his social media accounts.</p>
+              <h5>BUILT WITH:</h5>
+              <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>GatsbyJS (React framework)</li>
+                <li>Strapi CMS</li>
+                <li>GraphQL</li>
+                <li>Netlify (Hosting)</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <ul class="project-icons">
+                <li>
+                  <a href="https://www.figma.com/file/nZe4mkzKhM9pwgk8guV7VC/Bryan-Johnston-wireframe?node-id=3%3A3&t=0D2VJb8zn6XcLJZP-1" target="_blank" >
+                    <i class="fa-brands fa-figma"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/sbloxy123/bjc-wed-030320" target="_blank" >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://suspicious-visvesvaraya-d96526.netlify.app/" target="_blank" >
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- project 4 -->
+        <div class="project-container">
+          <a href="https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/" target="_blank">
+            <img src="./images/lace.png" alt="Lace & Blossom website" class="project-screenshot">
+          </a>
+          <div class="project-details">
+            <div class="project-text">
+              <h2>Lave & Blossom</h2>
+              <p>A website to showcase Lace & Blossom’s gift products.</p>
+              <h5>BUILT WITH:</h5>
+              <ul>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>GatsbyJS (React framework)</li>
+                <li>Strapi CMS</li>
+                <li>GraphQL</li>
+                <li>Font Awesome</li>
+              </ul>
+            </div>
+            <div class="project-links">
+              <ul class="project-icons">
+                <li>
+                  <a href="https://www.figma.com/file/JRZaf5bBxs85TKsidP99er/Untitled?node-id=0%3A1&t=apd5B3Uyt08hCwga-1" target="_blank" >
+                    <i class="fa-brands fa-figma"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/sbloxy123/lace-and-blossom" target="_blank" >
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://60bcc90e3b8bee00075505e2--laceandblossom.netlify.app/" target="_blank" >
+                    <i class="fa-solid fa-globe"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- next project here -->
+      </div>
+
+<footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="my-name me-auto">
+        <h1 class="forename">Stuart</h1>
+        <h1 class="surname">Bloxham</h1>
+      </div>
+
+      <a href="./docs/stuart-bloxham-CV-web-developer.pdf"
+        target="_blank"
+        class="d-flex justify-content-between align-items-center mb-2 me-auto">
+          <img class="cv-icon me-2" src="./images/file.png" alt="document icons">
+          <h2 class="cv-text mb-0">CV</h2>
+      </a>
+      <ul class="list-inline">
+        <li>
+          <a href="https://github.com/sbloxy123" target="_blank" >
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/stuart-bloxham-a36197121/" target="_blank" >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/bloxy88/" target="_blank" >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
 
   </body>
 </html>
