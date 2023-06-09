@@ -1,34 +1,34 @@
 /* open sans */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 /* Raleway */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;600&display=swap");
 /* Quicksand */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-.navbar-style{
-    background-color: #FCFCF9;
-    width: 100vw;
-    height: 100px;
-    display: flex;
-    align-items: center;
+.navbar-style {
+  background-color: #fcfcf9;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  align-items: center;
 }
-.my-name h1{
-  font-family: 'Lobster', cursive;
+.my-name h1 {
+  font-family: "Lobster", cursive;
   line-height: 1.5rem;
 }
 
-.cv-text{
-  font-family: 'Lobster', cursive;
+.cv-text {
+  font-family: "Lobster", cursive;
   line-height: 1.5rem;
 }
 
-.cv-icon{
+.cv-icon {
   height: 2rem;
 }
 
 .forename {
-  padding-bottom:0px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
 }
 .surname {
@@ -37,9 +37,8 @@
   padding-left: 2rem;
 }
 
-
 /* main */
-.me-img{
+.me-img {
   height: 185px;
   width: 185px;
   display: block;
@@ -48,24 +47,24 @@
   margin-top: 70px;
 }
 
-.bio-text{
+.bio-text {
   width: 50%;
   text-align: center;
   margin: 30px auto;
 }
-.section-heading{
-  font-family: 'Lobster', cursive;
+.section-heading {
+  font-family: "Lobster", cursive;
   margin-top: 50px;
 }
 
 /* stack */
-.stack-section{
-  background-color: #FCFCF9;
+.stack-section {
+  background-color: #fcfcf9;
   padding-bottom: 50px;
   padding-top: 30px;
 }
 
-.stack{
+.stack {
   width: 80%;
   margin: auto;
   display: flex;
@@ -85,17 +84,16 @@
 
 /* projects */
 
-.materialised{
+.materialised {
   display: flex;
   flex-wrap: wrap;
 }
-.project-container{
+.project-container {
   position: relative;
   margin-bottom: 100px;
 }
 
-
-.project-screenshot{
+.project-screenshot {
   width: 600px;
   height: 360px;
   margin: 50px 0px 0px 100px;
@@ -103,7 +101,7 @@
   position: relative;
   z-index: 1;
 }
-.project-details{
+.project-details {
   width: 600px;
   min-height: 360px;
   background-color: rgba(103, 97, 97, 0.9);
@@ -118,10 +116,8 @@
   left: 47%;
 }
 
-
-.project-text{
+.project-text {
   padding: 10px 20px;
-
 }
 
 .project-text p {
@@ -132,14 +128,14 @@
   padding-bottom: 10px;
 }
 
-.project-links{
+.project-links {
   background-color: rgba(80, 77, 77, 100);
   min-height: 100%;
   width: 20%;
   display: flex;
 }
 
-.project-icons{
+.project-icons {
   list-style: none;
   /* width: 50%; */
   padding: 0px;
@@ -147,7 +143,7 @@
   padding-bottom: 25px;
 }
 
-.project-icons > li{
+.project-icons > li {
   width: fit-content;
   margin: auto;
 }
@@ -156,8 +152,8 @@
   color: white;
 }
 
-footer{
-  background-color: #FCFCF9;
+footer {
+  background-color: #fcfcf9;
   position: absolute;
   width: 100vw;
   height: 200px;
@@ -166,11 +162,11 @@ footer{
   align-items: center;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   align-items: center;
 }
-.footer-content > a{
+.footer-content > a {
   color: black;
   text-decoration: none;
 }
@@ -199,44 +195,39 @@ footer{
     font-size: 1.5em;
     color: black;
   }
-  .my-name h1{
-    font-family: 'Lobster', cursive;
+  .my-name h1 {
+    font-family: "Lobster", cursive;
     line-height: 1.3rem;
   }
-  .cv-text{
+  .cv-text {
     font-size: 1.3rem;
     padding-bottom: 7px;
     margin-top: -3px;
-
-
   }
-  .cv-icon{
+  .cv-icon {
     height: 1.5rem;
     padding-bottom: 7px;
     margin-top: -3px;
-
   }
-  footer{
+  footer {
     height: 150px;
   }
 }
 
 @media screen and (max-width: 1400px) {
-  .project-screenshot{
+  .project-screenshot {
     margin-left: 0px;
   }
-  .project-details{
+  .project-details {
     left: 38%;
   }
-  .last-item{
+  .last-item {
     margin-right: 0;
   }
 }
 
-
-
 @media screen and (max-width: 1000px) {
-  .section-heading{
+  .section-heading {
     padding-bottom: 20px;
   }
   .surname {
@@ -244,10 +235,10 @@ footer{
     margin-top: -1px;
     padding-left: 2rem;
   }
-  .bio-text{
+  .bio-text {
     width: 100%;
   }
-  .stack{
+  .stack {
     width: 75%;
     gap: 18px 20px;
   }
@@ -255,41 +246,39 @@ footer{
     width: 25%;
   }
 
-
-  .project-screenshot{
+  .project-screenshot {
     width: 90%;
     height: fit-content;
     box-shadow: none;
     margin: 0 auto;
-    border-top: 0.5px solid rgba(0, 0, 0,0.5);
-    border-right: 0.5px solid rgba(0, 0, 0,0.5);
-    border-left: 0.5px solid rgba(0, 0, 0,0.5);
+    border-top: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
     display: block;
     margin: 0 auto;
   }
-  .project-details{
+  .project-details {
     width: 90%;
     height: fit-content;
     color: white;
     position: relative;
     box-shadow: none;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     margin: 0 auto;
     background-color: white;
     color: black;
     display: block;
-    border-bottom: 0.5px solid rgba(0, 0, 0,0.5);
-    border-right: 0.5px solid rgba(0, 0, 0,0.5);
-    border-left: 0.5px solid rgba(0, 0, 0,0.5);
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-left: 0.5px solid rgba(0, 0, 0, 0.5);
   }
-  .project-text{
+  .project-text {
     padding: 10px;
     padding-top: 15px;
-
   }
 
-  .project-text h2{
+  .project-text h2 {
     text-align: center;
     text-decoration: underline;
   }
@@ -299,24 +288,23 @@ footer{
   }
 
   /* links */
-  .project-links{
+  .project-links {
     background-color: rgba(80, 77, 77, 100);
     width: 100%;
     display: inline-block;
     display: flex;
     box-shadow: 0 0 3px #ccc;
-
   }
 
-  .project-icons{
+  .project-icons {
     list-style: none;
     padding-bottom: 0px;
   }
-  .project-icons li{
+  .project-icons li {
     display: inline-block;
     padding: 15px;
   }
-  footer{
+  footer {
     margin-top: 0px;
   }
 }
