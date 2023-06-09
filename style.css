@@ -31,6 +31,7 @@
   width: 100%;
   background-color: blueviolet;
   border-radius: 6px;
+  margin-bottom: 15px;
 }
 
 .alert-btn > a {

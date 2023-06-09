@@ -12,9 +12,23 @@ alertBox.innerHTML = `<div class="alert-text-container">
 <button class="alert-btn">
 <a href="https://www.stuartbloxham.tech"> Visit my new site here </a>
 </button>
+<div id="Timer"></div>
 </div>
 `;
 alertBox.classList.add("redirect-alert");
 
 getPosition.insertAdjacentElement("afterend", bg);
 getPosition.insertAdjacentElement("afterend", alertBox);
+
+let timeLeft = 10;
+const elem = document.getElementById("Timer");
+const timerId = setInterval(countdown, 1000);
+
+function countdown() {
+  if (timeLeft == 0) {
+    clearTimeout(timerId);
+  } else {
+    elem.innerHTML = "redirecting automatically in " + timeLeft;
+    timeLeft--;
+  }
+}
